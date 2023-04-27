@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background: black;
+  color: white;
+  font-family: monospace;
+}
+
+.control{
+  background: grey;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  border-radius: 3rem;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 25rem;
+}
+
+.active{
+  background: rgb(43, 146, 210);
+}
+button{
+  font-size: 2rem;
+  padding:1rem;
+  margin: 0.5rem;
 }
